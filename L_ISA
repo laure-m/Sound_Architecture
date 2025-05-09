@@ -1,0 +1,22 @@
+L-ISA
+
+1. Download and install L-ISA Controller and L-ISA Processor
+	You must run both at the same time
+
+2. In your DAW change the Audio Hardware / Routing so that the Device Input/Output is L-ISA Bridge
+
+3. In the L-ISA Processor, in Audio Settings: 
+	the input should be L-ISA Bridge
+	the output should be your headphones
+
+4. In the L-ISA Controller click on "Processors", drag your computer into the "Main" dropdown space and hit the "connect" button. This should draw a green arrow saying the controller is now connected to the computer. 
+
+5. Back in your DAW, each track output should be made to be Mono > L-ISA Bridge Out #X, each track should be a diffferent Mono output
+
+6. In L-ISA Controller we need to use the Binaural Template. Click on the top next to the L-ISA logo, select "New From Template" and then "12.0 L-Acoustics Binaural..."
+
+7. Click on "Sources" then "Overview" and label and colorize each source to match your DAW Tracks
+
+8. Click on the "Soundscape" tab, you can move each of the inputs around in space, distance, width, etc
+
+9. Now to test it, when you play your DAW, open the Processor and you should see inputs lighting up as that track is played. 
